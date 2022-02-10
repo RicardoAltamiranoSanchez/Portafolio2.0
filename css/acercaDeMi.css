@@ -1,0 +1,433 @@
+.main-acerca-mi{
+
+ background: linear-gradient(#FF3192,#0E0A54);
+margin-top:-25px;
+color:white;
+
+font-family: Lucida Handwritin;
+}
+.main-acerca-mi h1{
+text-align:center;
+}
+.grid-1-acerca-mi h4{
+margin-top:-100px;
+margin-bottom:80px;
+}
+.grid-1-acerca-mi p{
+margin-top:50px;
+font-size:15px;
+
+}
+.div-grid-acerca-mi{
+text-align:center;
+display:grid;
+grid-template-columns: repeat(2,1fr);
+gap:20px;
+justify-content: center;
+align-items: center;
+letter-spacing: 0.5mm;
+border-radius:20px;
+background:rgba(255,255,255,0.20);
+border:solid 1px black;
+box-shadow:0 8px 32px 0 rgba(31,38,135,0.87);
+backdrop-filter:blur(5px);
+border:1px solid rgba(255,255,255,0.10);
+}
+.grid-2-acerca-mi{
+
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+text-align: center;
+}
+.Titulo-habilidades{
+grid-column:1/4;
+margin:20px 0;
+margin-right:90px;
+
+}
+
+	
+:root{
+    --border-fondo1:20px solid rgb(240, 219, 79,0.3);
+    --border-fondo2:20px solid rgba(206, 11, 11, 0.3);
+    --border-fondo3:20px solid rgba(6, 22, 168, 0.3);
+  --border-fondo4:20px solid rgba(74, 35, 90, 0.3);
+ --border-fondo5:20px solid rgb(248, 152, 32,0.3);
+ --border-fondo6:20px solid rgb(255, 215, 0,0.3);
+ --border-fondo7:20px solid rgb( 40, 116, 166 ,0.3);
+--border-fondo8:20px solid rgb(0, 117, 143,0.3);
+--border-fondo9:20px solid rgb(27, 38, 49,0.3);
+--border-fondo10:20px solid  rgb(88, 150, 54,0.3);
+--border-fondo11:20px solid  rgb(255, 232, 115,0.3);
+--border-fondo12:20px solid  rgb(104, 160, 99,0.3);
+ --border-fondo13:20px solid  rgb(97, 219, 251,0.3);   
+--border-fondo14:20px solid  rgb(241, 101, 41,0.3); 
+--border-fondo15:20px solid  rgb(41, 101, 241,0.3);  
+--border-fondo16:20px solid  rgb(205, 103, 153,0.3); 
+--border-fondo17:20px solid  rgb(68, 65, 64,0.3); 
+
+    --border1:20px solid rgb(240, 219, 79);
+    --border2:20px solid rgb(204, 10, 4);
+    --border3:20px solid rgba(5, 21, 170);
+      --border4:20px solid rgba(74, 35, 90);
+   --border5:20px solid rgb(248, 152, 32);
+ --border6:20px solid rgb(255, 215, 0);
+ --border7:20px solid rgb( 40, 116, 166 );
+--border8:20px solid rgb(0, 117, 143);
+--border9:20px solid rgb(27, 38, 49);
+ --border10:20px solid rgb(88, 150, 54);
+ --border11:20px solid rgb(255, 232, 115);
+--border12:20px solid rgb(104, 160, 99);
+--border13:20px solid rgb(97, 219, 251); 
+--border14:20px solid rgb(241, 101, 41);
+--border15:20px solid rgb(41, 101, 241);
+--border16:20px solid rgb(205, 103, 153);
+--border17:20px solid rgb(68, 65, 64);
+
+}
+.contenedor{
+    height: 60px;
+    width: 150px;
+    overflow: hidden;
+    margin: 10px 20px;
+  margin-bottom: 20px;
+}
+.contenedor .progreso{
+    margin: 0px 0px;
+    border-radius: 50%;
+    height:80px;
+    width: 80px;
+    /*border-left: var(--border3);
+    border-right: var(--border3);
+    border-top: var(--border3);
+    border-bottom: 25px solid transparent;*/
+    position: relative;
+    color: #fff;
+    text-align: center;
+cursor: pointer;
+}
+.contenedor .pro-1{
+    border: var(--border-fondo1);
+    color: rgb(240, 219, 79);
+}
+.contenedor .pro-2{
+    border: var(--border-fondo2);
+    color: rgb(204, 10, 4);
+}
+.contenedor .pro-3{
+    border: var(--border-fondo3);
+    color: rgba(5, 21, 170);
+}
+.contenedor .pro-4{
+    border: var(--border-fondo4);
+    color: rgba(74, 35, 90);
+}
+.contenedor .pro-5{
+    border: var(--border-fondo5);
+    color: rgb(248, 152, 32);
+}
+.contenedor .pro-6{
+    border: var(--border-fondo6);
+    color: rgb(255, 215, 0);
+}
+.contenedor .pro-7{
+    border: var(--border-fondo7);
+    color: rgb( 40, 116, 166 );
+}
+.contenedor .pro-8{
+    border: var(--border-fondo8);
+    color: rgb(0, 117, 143);
+}
+.contenedor .pro-9{
+    border: var(--border-fondo9);
+    color: rgb(27, 38, 49);
+}
+.contenedor .pro-10{
+    border: var(--border-fondo10);
+    color: rgb(88, 150, 54);
+}
+.contenedor .pro-11{
+    border: var(--border-fondo11);
+    color: rgb(255, 232, 115);
+}
+.contenedor .pro-12{
+    border: var(--border-fondo12);
+    color: rgb(104, 160, 99);
+}
+.contenedor .pro-13{
+    border: var(--border-fondo13);
+    color: rgb(97, 219, 251);
+}
+.contenedor .pro-14{
+    border: var(--border-fondo14);
+    color: rgb(241, 101, 41);
+}
+.contenedor .pro-15{
+    border: var(--border-fondo15);
+    color: rgb(41, 101, 241);
+}
+.contenedor .pro-16{
+    border: var(--border-fondo16);
+    color: rgb(205, 103, 153);
+}
+
+.contenedor .pro-17{
+    border: var(--border-fondo17);
+    color: rgb(68, 65, 64);
+}
+
+
+.progreso h1{
+   
+    margin-bottom:0px ;
+font-size:15px;
+}
+.progreso h1,h2{
+    margin-top: 0px;
+
+   
+
+}
+
+.progreso h2{
+   
+font-size:15px;
+}
+
+.progreso .circle{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transform: rotate(-100deg);
+}
+
+.circle1{
+    border-top: var(--border1);
+    border-left: var(--border1);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar1 1s linear forwards;
+    animation-delay: 0.20s;
+}
+.circle2{
+    border-top: var(--border2);
+    border-left: var(--border2);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar2 1s linear forwards;
+    animation-delay: 0.40s;
+}
+.circle3{
+    border-top: var(--border3);
+    border-left: var(--border3);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar3 1s linear forwards;
+    animation-delay: 0.40s;
+}
+.circle4{
+    border-top: var(--border4);
+    border-left: var(--border4);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar4 1s linear forwards;
+    animation-delay: 0.20s;
+}
+.circle5{
+    border-top: var(--border5);
+    border-left: var(--border5);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar5 1s linear forwards;
+    animation-delay: 0.20s;
+}
+.circle6{
+    border-top: var(--border6);
+    border-left: var(--border6);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar6 1s linear forwards;
+    animation-delay: 0.20s;
+}
+.circle7{
+    border-top: var(--border7);
+    border-left: var(--border7);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar7 1s linear forwards;
+    animation-delay: 0.20s;
+}
+.circle8{
+    border-top: var(--border8);
+    border-left: var(--border8);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar8 1s linear forwards;
+    animation-delay: 0.20s;
+}
+.circle9{
+    border-top: var(--border9);
+    border-left: var(--border9);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar9 1s linear forwards;
+    animation-delay: 0.20s;
+}
+.circle10{
+    border-top: var(--border10);
+    border-left: var(--border10);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar10 1s linear forwards;
+    animation-delay: 0.20s;
+}
+.circle11{
+    border-top: var(--border11);
+    border-left: var(--border11);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar11 1s linear forwards;
+    animation-delay: 0.20s;
+}
+.circle12{
+    border-top: var(--border12);
+    border-left: var(--border12);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar12 1s linear forwards;
+    animation-delay: 0.20s;
+}
+.circle13{
+    border-top: var(--border13);
+    border-left: var(--border13);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar13 1s linear forwards;
+    animation-delay: 0.20s;
+}
+.circle14{
+    border-top: var(--border14);
+    border-left: var(--border14);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar14 1s linear forwards;
+    animation-delay: 0.20s;
+}
+
+.circle15{
+    border-top: var(--border15);
+    border-left: var(--border15);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar15 1s linear forwards;
+    animation-delay: 0.20s;
+}
+
+.circle16{
+    border-top: var(--border16);
+    border-left: var(--border16);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar16 1s linear forwards;
+    animation-delay: 0.20s;
+}
+
+.circle17{
+    border-top: var(--border17);
+    border-left: var(--border17);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation:  rotar17 1s linear forwards;
+    animation-delay: 0.20s;
+}
+@keyframes rotar1{
+    100%{
+        transform: rotate(20deg);
+    }
+}
+@keyframes rotar2{
+    100%{
+        transform: rotate(-45deg);
+    }
+}
+@keyframes rotar3{
+    100%{
+        transform: rotate(10deg);
+    }
+}
+@keyframes rotar4{
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes rotar5{
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes rotar6{
+    100%{
+        transform: rotate(20deg);
+    }
+}
+@keyframes rotar7{
+    100%{
+        transform: rotate(-45deg);
+    }
+}
+@keyframes rotar8{
+    100%{
+        transform: rotate(10deg);
+    }
+}
+@keyframes rotar9{
+    100%{
+        transform: rotate(-45deg);
+    }
+}
+@keyframes rotar10{
+    100%{
+        transform: rotate(10deg);
+    }
+}
+@keyframes rotar11{
+    100%{
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes rotar12{
+    100%{
+        transform: rotate(20deg);
+    }
+}
+@keyframes rotar13{
+    100%{
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes rotar14{
+    100%{
+        transform: rotate(25deg);
+    }
+}
+@keyframes rotar15{
+    100%{
+        transform: rotate(25deg);
+    }
+}
+@keyframes rotar16{
+    100%{
+        transform: rotate(-65deg);
+    }
+}
+
+@keyframes rotar17{
+    100%{
+        transform: rotate(0deg);
+    }
+}

@@ -1,0 +1,150 @@
+
+.main-proyectos{
+background: linear-gradient(#FF3192,#0E0A54);
+font-family: Gill Sans MT;
+padding:30px 0;
+}
+.main-proyectos h1{
+text-align:center;
+color:white;
+margin-top:10px;
+margin-bottom:90px;
+font-family: Lucida Handwritin;
+}
+.seccion-proyecto{
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+margin:0px 40px;
+gap:40px;
+
+}
+.carta-proyectos{
+width:450px;
+height:290px;
+display:flex;
+overflow: hidden;
+background: white;
+
+box-shadow:0 5px 30px rgba(0,0,0,0.6);
+border-radius:10px;
+transition:0.1s;
+
+}
+.carta-proyectos:hover{
+transform: scale(1.10);
+box-shadow:0 5px 10px #0E0A54;
+}
+.imagen-carta1{
+background:url('/img/paginaweb.JPG');
+width:50%;
+height: 100%;
+background-size:cover;
+}
+.imagen-carta2{
+background:url('/img/TiendaInfo.JPG');
+width:50%;
+height: 100%;
+background-size:cover;
+}
+.imagen-carta3{
+background:url('/img/Tienda3B.JPG');
+width:50%;
+height: 100%;
+background-size:cover;
+}
+.imagen-carta4{
+background:url('/img/AdministracionReact.JPG');
+width:50%;
+height: 100%;
+background-size:cover;
+}
+.imagen-carta5{
+background:url('/img/SistemaDeTicketsJPG.JPG');
+width:50%;
+height: 100%;
+background-size:cover;
+}
+.imagen-carta6{
+background:url('/img/Portafolio1.JPG');
+width:50%;
+height: 100%;
+background-size:cover;
+}
+.imagen-carta7{
+background:url('/img/FestivaMusica.JPG');
+width:50%;
+height: 100%;
+background-size:cover;
+}
+.imagen-carta8{
+background:url('/img/TiendaVirutal20.JPG');
+width:50%;
+height: 100%;
+background-size:cover;
+}
+.imagen-carta9{
+background:url('/img/AgenciasDeViajes.JPG');
+width:50%;
+height: 100%;
+background-size:cover;
+}
+.imagen-carta10{
+background:url('/img/ServidorNodejs.JPG');
+width:50%;
+height: 100%;
+background-size:cover;
+}
+.imagen-carta11{
+background:url('/img/portafolio2.JPG');
+width:50%;
+height: 100%;
+background-size:cover;
+}
+.contenido-proyectos{
+width:60%;
+height: 100%;
+display:grid;
+grid-template-rows:50px 150px 50px;
+padding:10px 5px;
+
+}
+
+.titulo-proyectos h3{
+color:#FF3192;
+margin-top:0px;
+font-size:13px;
+}
+.titulo-proyectos span{
+font-family: Lucida Handwritin;
+color:#FF3192;
+font-size:11px;
+
+
+
+}
+.texto-proyectos p{
+color:black;
+font-size:11px;
+
+
+font-weight: 500%;
+
+}
+.boton-proyectos{
+margin-top: 50px;
+}
+.boton-proyectos .boton-proyecto{
+background:rgba(255,49,146,0.8);
+padding:5px 10px;
+color:#fff;
+border-radius:5px;
+outline: none;
+border:none;
+text-decoration: none;
+font-family: Gill Sans MT;
+
+}
+.boton-proyectos .boton-proyecto:hover{
+background:#FF3192;
+
+}

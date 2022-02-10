@@ -1,0 +1,150 @@
+
+.seccion-footer {
+   background: linear-gradient(#0E0A54,#FF3192);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: flex-end;
+  
+
+
+}
+footer {
+    position: relative;
+    background: #0E0A54;
+    width: 100%;
+    min-height: 150px;
+    padding: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-waves h1{
+font-family: Gill Sans MT;
+
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../img/wave3.png);
+    background-size: 1000px 100px;
+}
+footer #wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animatedWave 4s linear infinite;
+}
+footer #wave2 {
+    z-index: 999;
+    opacity: 0.75;
+    bottom: 10px;
+    animation: animatedWave_02 4s linear infinite;
+}
+footer #wave3 {
+    z-index: 998;
+    opacity: 0.5;
+    bottom: 20px;
+    animation: animatedWave 3s linear infinite;
+}
+footer #wave4 {
+    z-index: 1000;
+    opacity: 0.25;
+    bottom: 30px;
+    animation: animatedWave_02 2s linear infinite;
+}
+@keyframes animatedWave {
+    0% {
+        background-position-x: 1000px;
+    }
+    100% {
+        background-position-x: 0;
+    }
+}
+
+@keyframes animatedWave_02 {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
+.copy {
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 50px;
+color:white;
+font-size:20px;
+font-family: Lucida Handwritin;
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+.footer-titulo{
+color:white;
+text-align:center;
+}
+
+
+.div-iconos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+.icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: all .8s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: #ff8000;
+    box-shadow:  0 0 20px #ff8000 ;
+}
+
+.icon:hover:nth-child(2) {
+    background-color: #1877f2;
+    box-shadow:  0 0 20px #1877f2;
+}
+
+.icon:hover:nth-child(3) {
+    background-color: #25d366;
+    box-shadow: 0 0 20px #25d366 ;
+}
+
+
+.icon i {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.7rem;
+}
+
+svg circle {
+    stroke-dasharray: 150;
+    transition: all .8s ease-in-out;
+}
+
+.icon:hover circle {
+    stroke-dasharray: 220;
+}
